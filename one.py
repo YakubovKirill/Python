@@ -34,7 +34,6 @@ d = {
 print (d)
 
 d2 = {a : a ** 2 for a in range(7)}
-
 print (d2)
 
 # Set
@@ -57,6 +56,18 @@ def out(a):
 k = out(100)
 print (k(200))
 
-lam = lambda *arg: sum(arg)
+#lam = lambda *arg: sum(arg)
+#print (lam (1, 2, 3, "e", 5))
 
-print (lam (1, 2, 3, "e", 5))
+# Try catch
+
+x = int ( input("Enter X: "))
+y = int ( input("Enter Y: "))
+
+try: 
+  res = x / y
+  print (res)
+except Exception:
+  print('err')
+finally:
+  print ("Okey")
