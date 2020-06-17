@@ -42,3 +42,21 @@ print (d2)
 frozSet = frozenset(tup)
 
 print (frozSet.__sizeof__())
+
+# Functions
+
+def pow (a, n):
+  return a ** n
+
+
+def out(a):
+  def inside(b):
+    return a + b
+  return inside
+
+k = out(100)
+print (k(200))
+
+lam = lambda *arg: sum(arg)
+
+print (lam (1, 2, 3, "e", 5))
