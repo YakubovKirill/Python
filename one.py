@@ -1,3 +1,10 @@
+import math
+import time
+import os
+import mod
+
+print(os.getenv("TMP"))
+
 #name = input("Your name: ")
 #print("Hello ", name)
 
@@ -61,8 +68,8 @@ print (k(200))
 
 # Try catch
 
-#x = int ( input("Enter X: "))
-#y = int ( input("Enter Y: "))
+x = 2
+y = 4
 
 try: 
   res = x / y
@@ -80,3 +87,8 @@ for line in f:
   print (line)
 #print (f)
 f.close ()
+
+# Modules
+
+print (math.pi)
+
