@@ -36,3 +36,9 @@ print (d)
 d2 = {a : a ** 2 for a in range(7)}
 
 print (d2)
+
+# Set
+
+frozSet = frozenset(tup)
+
+print (frozSet.__sizeof__())
