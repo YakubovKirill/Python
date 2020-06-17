@@ -61,8 +61,8 @@ print (k(200))
 
 # Try catch
 
-x = int ( input("Enter X: "))
-y = int ( input("Enter Y: "))
+#x = int ( input("Enter X: "))
+#y = int ( input("Enter Y: "))
 
 try: 
   res = x / y
@@ -71,3 +71,12 @@ except Exception:
   print('err')
 finally:
   print ("Okey")
+
+# Files
+
+f = open ('text.txt', 'r+')
+#f.read ()
+for line in f:
+  print (line)
+#print (f)
+f.close ()
