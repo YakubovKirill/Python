@@ -95,8 +95,13 @@ print (math.pi)
 
 # Classes
 
-kirill = Person()
+kirill = Person("Male")
 kirill.set("Kirill", 22)
 
 print(kirill.getName())
 print(kirill.getAge())
+
+# Incap and Polymorf
+
+Pers = Person("Male")
+print (Pers._Person__sex)
