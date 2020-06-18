@@ -2,6 +2,7 @@ import math
 import time
 import os
 import mod
+from Person import Person
 
 print(os.getenv("TMP"))
 
@@ -92,3 +93,10 @@ f.close ()
 
 print (math.pi)
 
+# Classes
+
+kirill = Person()
+kirill.set("Kirill", 22)
+
+print(kirill.getName())
+print(kirill.getAge())
